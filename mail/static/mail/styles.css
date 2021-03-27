@@ -1,0 +1,59 @@
+textarea {
+  min-height: 400px;
+}
+
+.post {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  margin: 4px;
+  padding: 2px;
+  display: flex;
+  z-index: 1;
+}
+
+div.post:hover {
+  cursor: hand;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.from {
+  font-weight: bold;
+  margin: 1px;
+  min-width: max-content;
+  width: 20%;
+}
+
+.subject {
+  width: 60%;
+  margin: 1px;
+}
+
+.timestamp {
+  min-width: max-content;
+  width: 20%;
+  margin: 1px;
+}
+
+.mrecipients {
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+}
+
+.msender {
+  margin: 0px;
+}
+
+.abutton {
+  position: relative;
+  font-size: smaller;
+  border-radius: 4px;
+  margin: 1px;
+  background-color: rgba(252, 252, 252, 0.4);
+  z-index: 2;
+}
+
+#unread {
+  margin-left: 5px;
+}
